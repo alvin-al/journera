@@ -7,7 +7,7 @@ import HeroImage from "./../../public/Hero.png";
 const Hero: React.FC = () => {
   return (
     <div
-      className={`flex flex-col lg:flex-row w-full  ${styles.ContainerPadding} gap-8 py-4 lg:py-12 h-[90vh] justify-between pt-10 bg-gray-50`}
+      className={`flex flex-col lg:flex-row w-full  ${styles.ContainerPadding} gap-8 py-4 lg:py-12  lg:h-[90vh] justify-between pt-10 bg-gray-50`}
     >
       {/* Kiri */}
       <div className='flex flex-col gap-4 md:gap-6 lg:w-1/2'>
@@ -25,7 +25,7 @@ const Hero: React.FC = () => {
       </div>
       {/* Kanan */}
       <div className='lg:w-1/2'>
-        <div className='w-full bg-yellow-50 h-fit overflow-hidden rounded-xl'>
+        <div className='w-full h-fit overflow-hidden rounded-xl'>
           <Image
             src={HeroImage}
             width={1000}
