@@ -5,10 +5,15 @@ import Image from "next/image";
 import logo from "../../public/LogoHz_Black.png";
 import { usePathname } from "next/navigation";
 
-const Navigation = () => {
+interface NavProps {
+  name: string;
+  link: string;
+}
+
+const Navigation: React.FC = () => {
   const pathname = usePathname();
 
-  const navList = [
+  const navList: NavProps[] = [
     {
       name: "Home",
       link: "/",
