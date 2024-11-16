@@ -1,29 +1,33 @@
 import React from "react";
 import * as styles from "./../styles";
+import TestimonialCard from "../element/TestimonialCard";
+import face1 from "./../../public/face1.png";
+import face2 from "./../../public/face2.png";
+import face3 from "./../../public/face3.png";
 
-// const testimonials = [
-//   {
-//     id: 1,
-//     text: "This product has completely transformed our workflow. It's intuitive, powerful, and has saved us countless hours.",
-//     name: "Alex Johnson",
-//     position: "CTO, TechCorp",
-//     image: "/placeholder.svg?height=100&width=100",
-//   },
-//   {
-//     id: 2,
-//     text: "I can't imagine running our business without this tool. The customer support is top-notch, and the features are always improving.",
-//     name: "Samantha Lee",
-//     position: "CEO, InnovateNow",
-//     image: "/placeholder.svg?height=100&width=100",
-//   },
-//   {
-//     id: 3,
-//     text: "As a small business owner, I appreciate how this solution scales with our needs. It's been a game-changer for our productivity.",
-//     name: "Michael Chen",
-//     position: "Founder, GrowFast",
-//     image: "/placeholder.svg?height=100&width=100",
-//   },
-// ];
+const testimonials = [
+  {
+    id: 1,
+    text: "Tour Journera di Jogja bener-bener seru abis! Destinasinya keren-keren, dan guidenya asik banget.",
+    name: "Chelsea Islan",
+    city: "Jakarta",
+    image: face1,
+  },
+  {
+    id: 2,
+    text: "Gak nyesel pilih Journera buat explore Jogja. Pelayanannya top banget, dan tempat-tempat yang dikunjungin bikin puas.",
+    name: "Samantha Lee",
+    city: "Temanggung",
+    image: face2,
+  },
+  {
+    id: 3,
+    text: "Sebagai pemilik bisnis kecil, tour Journera di Jogja ini bener-bener worth it buat refreshing. Produktivitas langsung naik!",
+    name: "Michael Chen",
+    city: "Kalimantan",
+    image: face3,
+  },
+];
 
 const Testimonials = () => {
   return (
@@ -37,7 +41,17 @@ const Testimonials = () => {
           kami?
         </h2>
       </div>
-      <div></div>
+      <div className='flex flex-col gap-8 md:flex-row'>
+        {testimonials.map((testimonial, index) => (
+          <TestimonialCard
+            image={testimonial.image}
+            name={testimonial.name}
+            city={testimonial.city}
+            desc={testimonial.text}
+            key={index}
+          />
+        ))}
+      </div>
     </div>
   );
 };
