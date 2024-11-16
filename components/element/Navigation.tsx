@@ -4,6 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import logo from "../../public/LogoHz_Black.png";
 import { usePathname } from "next/navigation";
+import * as styles from "../styles";
 
 interface NavProps {
   name: string;
@@ -29,13 +30,21 @@ const Navigation: React.FC = () => {
   ];
 
   return (
-    <div className='w-full h-32 flex px-12 items-center'>
-      <div className='w-40'>
+    <div
+      className={`w-full h-20 flex items-center ${styles.ContainerPadding} xl:h-32`}
+    >
+      <div className='w-1/2 h-fit md:w-40 '>
         <Link href='/'>
-          <Image src={logo} width={500} height={300} alt='logo' />
+          <Image
+            src={logo}
+            width={500}
+            height={300}
+            alt='logo'
+            className='object-contain'
+          />
         </Link>
       </div>
-      <div className='flex flex-1 text-center justify-center'>
+      <div className='hidden md:flex flex-1 text-center justify-center'>
         <ul className='hidden lg:flex gap-8 font-medium'>
           {navList.map((nav, index) => (
             <li key={index}>
@@ -51,7 +60,7 @@ const Navigation: React.FC = () => {
           ))}
         </ul>
       </div>
-      <div className='w-40 flex justify-end'>
+      <div className='w-1/2 h-full md:w-40 flex justify-end'>
         <button className='lg:hidden'>
           <div className='flex gap-1 flex-col'>
             <div className='w-8 h-1 bg-black rounded-sm'></div>
