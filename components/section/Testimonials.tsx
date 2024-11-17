@@ -32,7 +32,7 @@ const testimonials = [
 const Testimonials = () => {
   return (
     <div
-      className={`${styles.ContainerPadding}  h-fit flex py-24 justify-start items-center flex-col gap-16`}
+      className={`${styles.ContainerPadding}  h-fit md:mb-24 flex py-24 justify-start items-center flex-col gap-16`}
     >
       <div>
         <h2 className='text-4xl md:text-5xl text-center'>
