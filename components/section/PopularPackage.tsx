@@ -19,7 +19,26 @@ const PopularPackage: React.FC = () => {
       className={`${styles.ContainerPadding} h-fit flex py-24 justify-start items-center flex-col gap-16`}
     >
       <PopularPackageTitle />
-      <div className='md:w-[85%] gap-4 md:gap-0 flex justify-between flex-col md:flex-row'>
+      <div className='md:w-[85%] gap-4  md:grid md:grid-cols-3 md:gap-8 md:flex-row'>
+        {/* md:w-[85%] gap-4 md:gap-0 flex justify-between flex-col md:flex-row */}
+        <DestinationCard
+          title={dataPaket[0].title}
+          image={dataPaket[0].image}
+          price={dataPaket[0].price}
+          link={dataPaket[0].link}
+        />
+        <DestinationCard
+          title={dataPaket[0].title}
+          image={dataPaket[0].image}
+          price={dataPaket[0].price}
+          link={dataPaket[0].link}
+        />
+        <DestinationCard
+          title={dataPaket[0].title}
+          image={dataPaket[0].image}
+          price={dataPaket[0].price}
+          link={dataPaket[0].link}
+        />
         <DestinationCard
           title={dataPaket[0].title}
           image={dataPaket[0].image}
