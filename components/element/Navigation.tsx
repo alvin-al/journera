@@ -24,9 +24,10 @@ const Navigation: React.FC = () => {
       document.body.style.overflow = "auto";
     }
     return () => {
-      document.body.style.overflow = "auto";
+      document.body.style.overflow = "hidden";
     };
   }, [showOverlay]);
+
 
   const navList: NavProps[] = [
     {
@@ -56,7 +57,11 @@ const Navigation: React.FC = () => {
         <div className='w-full flex flex-col items-center justify-center'>
           <ul className='flex flex-col font-medium text-center w-full'>
             {navList.map((nav, index) => (
-              <li key={index} className=' w-full py-6 h-full text-2xl'>
+              <li
+                key={index}
+                className=' w-full py-6 h-full text-2xl'
+                onClick={() => setShowOverlay(false)}
+              >
                 <Link
                   href={nav.link}
                   className={`transition duration-300 ease-in-out  ${
@@ -77,6 +82,7 @@ const Navigation: React.FC = () => {
               height={300}
               alt='logo'
               className='object-contain w-40 lg:w-full'
+              priority
             />
           </Link>
         </div>

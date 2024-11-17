@@ -1,0 +1,24 @@
+{
+  "faq": [
+    {
+      "title": "Apa saja layanan yang ditawarkan oleh perusahaan travel ini?",
+      "description": "Kami menawarkan berbagai layanan seperti paket wisata, hotel, transportasi lokal, serta layanan tur pribadi yang dapat disesuaikan dengan kebutuhan Anda."
+    },
+    {
+      "title": "Bagaimana cara memesan paket wisata?",
+      "description": "Anda dapat memesan paket wisata dengan menghubungi layanan pelanggan kami melalui telepon. Tim kami siap membantu Anda dalam setiap langkah pemesanan."
+    },
+    {
+      "title": "Apakah bisa melakukan perubahan atau pembatalan setelah memesan?",
+      "description": "Ya, perubahan atau pembatalan dapat dilakukan sesuai dengan kebijakan yang berlaku. Harap diperhatikan bahwa mungkin ada biaya tambahan tergantung pada waktu dan jenis perubahan yang dilakukan. Pastikan untuk membaca syarat dan ketentuan saat memesan."
+    },
+    {
+      "title": "Apakah ada diskon untuk grup atau rombongan?",
+      "description": "Kami menawarkan diskon khusus untuk grup atau rombongan. Silakan hubungi tim layanan pelanggan kami untuk informasi lebih lanjut dan penawaran khusus."
+    },
+    {
+      "title": "Bagaimana cara menghubungi layanan pelanggan jika ada pertanyaan atau masalah selama perjalanan?",
+      "description": "Anda dapat menghubungi layanan pelanggan kami melalui nomor telepon yang tersedia 24/7 atau melalui email. Kami berkomitmen untuk memberikan bantuan dan solusi secepat mungkin."
+    }
+  ]
+}
