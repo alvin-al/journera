@@ -25,7 +25,7 @@ const IncludeAndExcludePackage = () => {
             </ul>
           </div>
         </div>
-        <div className='w-[1px] mx-8 bg-gray-800'></div>
+        <div className='hidden lg:block w-[1px] mx-8 bg-gray-700'></div>
         <div className='w-fit '>
           <div>
             <p className='text-lg font-semibold mb-2'>Biaya tidak termasuk:</p>

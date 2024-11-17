@@ -20,9 +20,9 @@ const TourDetailPage = () => {
         className={`${styles.ContainerContentPadding} flex flex-col lg:flex-row mb-24 `}
       >
         {/* Kiri */}
-        <div className='lg:w-2/3 lg:pr-8 lg:flex lg:flex-col lg:gap-8'>
+        <div className='lg:w-2/3 lg:pr-8 flex flex-col gap-8 '>
           {/* Title */}
-          <h1 className={`text-4xl py-8 md:text-5xl text-gray-800 `}>
+          <h1 className={`text-4xl pt-8 md:text-5xl text-gray-800 `}>
             {journerakonten.name}
           </h1>
           {/* Image */}
