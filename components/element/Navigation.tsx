@@ -34,15 +34,17 @@ const Navigation: React.FC = () => {
       className={`w-full h-20 flex items-center ${styles.ContainerPadding} xl:h-32`}
     >
       <div className='w-1/2 h-fit md:w-40 '>
-        <Link href='/'>
-          <Image
-            src={logo}
-            width={500}
-            height={300}
-            alt='logo'
-            className='object-contain'
-          />
-        </Link>
+        <div>
+          <Link href='/' className=''>
+            <Image
+              src={logo}
+              width={500}
+              height={300}
+              alt='logo'
+              className='object-contain w-40 lg:w-full'
+            />
+          </Link>
+        </div>
       </div>
       <div className='hidden md:flex flex-1 text-center justify-center'>
         <ul className='hidden lg:flex gap-8 font-medium'>
