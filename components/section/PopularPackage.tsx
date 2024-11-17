@@ -10,7 +10,7 @@ const PopularPackage: React.FC = () => {
       title: "Journera KotaKota",
       image: KotaKota,
       price: "500,000",
-      link: "/",
+      link: "/tour/journera-kotakota",
     },
   ];
 

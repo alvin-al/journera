@@ -1,5 +1,4 @@
 import React from "react";
-import Navbar from "../section/Navbar";
 import SecondNavigation from "../element/SecondNavigation";
 import journerakonten from "./../../template-content/journera-kotakota.json";
 import * as styles from "./../styles";
@@ -10,11 +9,8 @@ import { FaCircleXmark } from "react-icons/fa6";
 import Footer from "../section/Footer";
 
 const TourDetailPage = () => {
-
-  
   return (
     <div>
-      <Navbar />
       <SecondNavigation />
       {/* Content Container */}
       <div
@@ -102,7 +98,26 @@ const TourDetailPage = () => {
         </div>
 
         {/* Kanan */}
-        <div className='lg:w-1/3'></div>
+        <div className='lg:w-1/3 pl-4 pt-48 w-full'>
+          <div className='w-full bg-white border h-56 flex flex-col rounded-md sticky top-28 justify-between overflow-hidden'>
+            <div className='px-8 pt-8'>
+              <div className='text-white rounded-md px-6 py-2 bg-blue-500 w-fit h-fit text-sm font-medium'>
+                Best Deals!
+              </div>
+            </div>
+            <div className='h-fit px-8'>
+              <p className='text-3xl font-semibold'>Rp 500.000</p>
+              <p className='text-lg text-gray-500 line-through font-semibold'>
+                Rp 600.000
+              </p>
+            </div>
+            <div className='h-12'>
+              <button className='w-full h-full bg-blue-500 text-white text-lg font-semibold'>
+                PESAN SEKARANG
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
       <Footer />
     </div>
