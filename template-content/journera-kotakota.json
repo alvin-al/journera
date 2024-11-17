@@ -1,0 +1,18 @@
+{
+  "name": "Journera KotaKota",
+  "duration": "12 Jam",
+  "featured_image": "public/Journera KotaKota.jpg",
+  "max_participants": 6,
+  "description": "Kalau kamu lagi nyari tempat buat ngopi sambil menikmati suasana pedesaan yang asri, Kopi Klotok di Yogyakarta bisa jadi pilihan yang pas. Di sini, kamu bisa merasakan sensasi ngopi di tengah sawah dengan angin sepoi-sepoi yang bikin rileks. Jangan lupa cobain pisang gorengnya yang legendaris, dijamin bikin ketagihan! Suasana hangat dan ramah dari para staf bikin kamu betah berlama-lama di sini. Plus, harga yang ramah di kantong bikin kamu nggak perlu khawatir buat balik lagi. Kalau udah puas jalan-jalan, Pantai Parangtritis bisa jadi destinasi penutup yang sempurna. Nikmati sunset yang memukau sambil berjalan di pasir yang lembut. Ombak yang besar dan angin pantai yang sejuk bikin suasana makin syahdu. Buat yang suka tantangan, kamu bisa coba naik ATV atau bermain layang-layang. Pastikan bawa baju ganti, karena main air di sini pasti bikin kamu basah kuyup!.",
+  "itinerary": [
+    "Kopi Klotok",
+    "Ledok Sambi",
+    "Gembiraloka Zoo",
+    "Pantai Parangtritis",
+    "Pusat Oleh Oleh"
+  ],
+  "price": {
+    "original": 700000,
+    "discounted": 650000
+  }
+}

@@ -21,7 +21,7 @@ const Navigation: React.FC = () => {
     },
     {
       name: "Tour",
-      link: "/tour",
+      link: "/tour/journera-kotakota", // or any default slug value you want to use
     },
     {
       name: "About Us",
