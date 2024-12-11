@@ -16,7 +16,7 @@ const DestinationCard = ({
   link,
 }: DestinationCardProps) => {
   return (
-    <Link href={link}>
+    <Link href={"/tour/" + link}>
       <div className='w-full gap-2 h-fit hover:shadow-md flex flex-col p-4 max-w-[380px]'>
         <div>
           <Image

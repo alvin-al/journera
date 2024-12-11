@@ -26,7 +26,7 @@ export async function DELETE(request: Request) {
   const { searchParams } = new URL(request.url);
   const id = searchParams.get("id");
   const deletedPackage = await prisma.package.delete({
-    where: { id: Number(id) },
+    where: { id: String(id) },
   });
   return NextResponse.json(deletedPackage);
 }
