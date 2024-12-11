@@ -1,7 +1,14 @@
 import type { NextConfig } from "next";
 
-const nextConfig: NextConfig = {
-  /* config options here */
+const nextConfig = {
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "**.s3.ap-southeast-2.amazonaws.com", // Ini buat ngizinin semua bucket S3
+      },
+    ],
+  },
 };
 
-export default nextConfig;
+module.exports = nextConfig;

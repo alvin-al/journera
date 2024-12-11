@@ -25,6 +25,7 @@ const DestinationCard = ({
             height={300}
             alt={title}
             className='object-contain w-full'
+            unoptimized
           />
         </div>
         <div>
@@ -32,9 +33,9 @@ const DestinationCard = ({
         </div>
         <div>
           <p className='text-sm text-gray-400'>
-            From{" "}
+            From
             <span className='text-xl text-blue-500 ml-1 font-semibold'>
-              Rp {price}
+              Rp {Number(price).toLocaleString("id-ID")}
             </span>
           </p>
         </div>

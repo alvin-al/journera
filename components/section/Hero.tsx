@@ -24,7 +24,7 @@ const Hero: React.FC = () => {
         </p>
       </div>
       {/* Kanan */}
-      <div className='lg:w-1/2'>
+      <div className='lg:w-1/2 lg:pl-12'>
         <div className='w-full h-fit overflow-hidden rounded-xl'>
           <Image
             src={HeroImage}
