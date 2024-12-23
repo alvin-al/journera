@@ -7,14 +7,14 @@ import { PiAirplaneTilt } from "react-icons/pi";
 
 const aboutData = [
   {
-    icon: "PiAirplaneTilt",
+    icon: <PiAirplaneTilt />,
     title: "Jelajahi Jogjakarta",
     description:
       "Journera membantu kamu menjelajahi Jogjakarta dengan mudah. Temukan destinasi impian di berbagai tempat. Buat perjalanan tak terlupakan bersama kami.",
     image: malioboro,
   },
   {
-    icon: "PiAirplaneTilt",
+    icon: <PiAirplaneTilt />,
     title: "Kolaborasi Global",
     description:
       "Kami bekerja sama dengan mitra di seluruh dunia untuk memberikan pengalaman perjalanan terbaik. Nikmati keragaman budaya dan koneksi global.",
@@ -22,7 +22,7 @@ const aboutData = [
     imageLeft: true,
   },
   {
-    icon: "PiAirplaneTilt",
+    icon: <PiAirplaneTilt />,
     title: "Pengalaman Istimewa",
     description:
       "Journera menciptakan perjalanan yang tak terlupakan. Dapatkan rekomendasi personalized dan layanan premium untuk pengalaman tak terlupakan.",

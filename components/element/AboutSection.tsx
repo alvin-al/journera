@@ -1,7 +1,6 @@
 import React from "react";
 import { StaticImageData } from "next/image";
 import Image from "next/image";
-import { PiAirplaneTilt } from "react-icons/pi";
 
 interface AboutSectionProps {
   icon: React.ReactNode;
@@ -34,9 +33,7 @@ const AboutSection = ({
         />
       </div>
       <div className='md:w-1/2 flex flex-col gap-6 p-8'>
-        <div className='text-5xl'>
-          <PiAirplaneTilt />
-        </div>
+        <div className='text-5xl'>{icon}</div>
         <div className='text-3xl'>{title}</div>
         <div className='text-base text-gray-500'>{description}</div>
       </div>
