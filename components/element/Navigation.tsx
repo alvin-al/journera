@@ -28,7 +28,6 @@ const Navigation: React.FC = () => {
     };
   }, [showOverlay]);
 
-
   const navList: NavProps[] = [
     {
       name: "Home",
@@ -36,7 +35,7 @@ const Navigation: React.FC = () => {
     },
     {
       name: "Tour",
-      link: "/tour/journera-kotakota", // or any default slug value you want to use
+      link: "/tour", // or any default slug value you want to use
     },
     {
       name: "About Us",
