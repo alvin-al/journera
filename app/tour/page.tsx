@@ -9,6 +9,7 @@ interface Package {
   itinerary: object;
   price: string;
   originalPrice: number;
+  link: string;
 }
 
 const PackagesPage = () => {
@@ -31,28 +32,13 @@ const PackagesPage = () => {
   return (
     <div>
       <h1>Packages</h1>
-      {/* <ul>
-        {packages.map((pkg) => (
-          <li key={pkg.id}>
-            Contoh Packages
-            {pkg.name}
-            <Image
-              src={pkg.featuredImage}
-              alt={pkg.name}
-              width={1000}
-              height={1000}
-              unoptimized
-            />
-          </li>
-        ))}
-      </ul> */}
       {packages.map((pkg) => {
         return (
           <DestinationCard
             title={pkg.name}
             image={pkg.featuredImage}
             price={pkg.price}
-            link={pkg.id}
+            link={pkg.link}
             key={pkg.id}
           />
         );
