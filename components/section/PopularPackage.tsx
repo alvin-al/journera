@@ -22,7 +22,7 @@ const PopularPackage: React.FC = () => {
   useEffect(() => {
     const fetchPackages = async () => {
       try {
-        const response = await fetch("api/packages");
+        const response = await fetch("/api/packages");
         const data: PopularPackage[] = await response.json();
         setPackages(data);
       } catch (error) {
