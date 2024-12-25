@@ -4,6 +4,7 @@ import AboutSection from "@/components/element/AboutSection";
 import malioboro from "@/public/Hero.png";
 import Footer from "../section/Footer";
 import { PiAirplaneTilt } from "react-icons/pi";
+import TitlePage from "../section/TitlePage";
 
 const aboutData = [
   {
@@ -36,14 +37,10 @@ const AboutUs: React.FC = () => {
       <div
         className={` flex flex-col ${styles.ContainerContentPadding} h-full mb-40`}
       >
-        <div
-          className={`flex flex-col items-center gap-4 w-full justify-center py-12 mb-12`}
-        >
-          <div className='text-5xl'>About Us</div>
-          <div>
-            <p className='text-gray-500'>Lebih jauh mengenal Journera</p>
-          </div>
-        </div>
+        <TitlePage
+          title='About Us'
+          description='Lebih jauh mengenal Journera'
+        />
         <div className='flex flex-col gap-12'>
           {aboutData.map((data, index) => {
             return (

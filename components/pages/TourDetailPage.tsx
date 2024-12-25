@@ -4,7 +4,6 @@ import journerakonten from "./../../template-content/journera-kotakota.json";
 import * as styles from "./../styles";
 import Image from "next/image";
 import journerathumbnail from "./../../public/Journera KotaKota.jpg";
-import Footer from "../section/Footer";
 import FAQ from "../section/FAQ";
 import DetailPackage from "../section/DetailPackage";
 import ItineraryPackage from "../section/ItineraryPackage";
@@ -56,7 +55,6 @@ const TourDetailPage = () => {
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   );
 };

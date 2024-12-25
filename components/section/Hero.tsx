@@ -15,7 +15,7 @@ const Hero: React.FC = () => {
         <h1 className='text-5xl leading-snug md:text-6xl xl:text-7xl font-bold md:leading-tight lg:leading-tight xl:leading-tight'>
           Temukan <br />
           Tempat
-          <br /> <span className='text-blue-500  text-wrap'>Petualanganmu</span>
+          <br /> <span className='text-[orange]  text-wrap'>Petualanganmu</span>
         </h1>
         <p className='text-[1.25rem] leading-relaxed'>
           Temukan tempat keren dengan penawaran eksklusif.{" "}

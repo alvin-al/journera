@@ -24,7 +24,7 @@ const PopularPackage: React.FC = () => {
       try {
         const response = await fetch("/api/packages");
         const data: PopularPackage[] = await response.json();
-        setPackages(data);
+        setPackages(data.slice(0, 3));
       } catch (error) {
         console.error("Error fetching packages : ", error);
       }
@@ -39,12 +39,6 @@ const PopularPackage: React.FC = () => {
     >
       <PopularPackageTitle />
       <div className='md:w-full gap-4 md:grid md:grid-cols-3 xl:max-w-6xl xl:gap-8 md:flex-row'>
-        {/* <DestinationCard
-          title={dataPaket[0].title}
-          image={dataPaket[0].image}
-          price={dataPaket[0].price}
-          link={dataPaket[0].link}
-        /> */}
         {packages.map((pkg) => {
           return (
             <DestinationCard
