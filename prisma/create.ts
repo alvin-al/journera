@@ -19,6 +19,8 @@ async function main() {
         slug: "journera-heritage",
         originalPrice: 550000,
         price: 500000,
+        createdAt: new Date(),
+        updatedAt: new Date(),
       },
       {
         description:
@@ -36,6 +38,8 @@ async function main() {
         slug: "journera-utara",
         originalPrice: 650000,
         price: 600000,
+        createdAt: new Date(),
+        updatedAt: new Date(),
       },
       {
         description:
@@ -53,6 +57,8 @@ async function main() {
         originalPrice: 650000,
         slug: "journera-selatan",
         price: 600000,
+        createdAt: new Date(),
+        updatedAt: new Date(),
       },
       {
         description:
@@ -70,6 +76,8 @@ async function main() {
         slug: "journera-timur",
         originalPrice: 650000,
         price: 600000,
+        createdAt: new Date(),
+        updatedAt: new Date(),
       },
       {
         description:
@@ -87,6 +95,8 @@ async function main() {
         slug: "journera-barat",
         originalPrice: 700000,
         price: 650000,
+        createdAt: new Date(),
+        updatedAt: new Date(),
       },
       {
         description:
@@ -104,6 +114,8 @@ async function main() {
         slug: "journera-adventure-1",
         originalPrice: 750000,
         price: 700000,
+        createdAt: new Date(),
+        updatedAt: new Date(),
       },
       {
         description:
@@ -121,6 +133,8 @@ async function main() {
         slug: "journera-adventure-2",
         originalPrice: 800000,
         price: 750000,
+        createdAt: new Date(),
+        updatedAt: new Date(),
       },
       {
         description:
@@ -137,6 +151,8 @@ async function main() {
         slug: "journera-adventure-3",
         originalPrice: 900000,
         price: 850000,
+        createdAt: new Date(),
+        updatedAt: new Date(),
       },
     ],
   });
