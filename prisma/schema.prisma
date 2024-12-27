@@ -15,7 +15,7 @@ model Package {
   name          String
   originalPrice Int
   price         Int
-  slug          String
+  slug          String @unique
   createdAt     DateTime @default(now())
   updatedAt     DateTime @updatedAt
 }

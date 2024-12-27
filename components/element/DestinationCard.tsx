@@ -5,7 +5,7 @@ import Link from "next/link";
 interface DestinationCardProps {
   title: string;
   image: string | StaticImageData;
-  price: string;
+  price: number;
   link: string;
 }
 
@@ -35,7 +35,7 @@ const DestinationCard = ({
           <p className='text-sm text-gray-400'>
             From
             <span className='text-xl text-blue-500 ml-1 font-semibold'>
-              Rp {Number(price).toLocaleString("id-ID")}
+              Rp {price}
             </span>
           </p>
         </div>

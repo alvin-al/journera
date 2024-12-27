@@ -2,7 +2,6 @@ import React from "react";
 import * as styles from "../../components/styles";
 import AboutSection from "@/components/element/AboutSection";
 import malioboro from "@/public/Hero.png";
-import Footer from "../section/Footer";
 import { PiAirplaneTilt } from "react-icons/pi";
 import TitlePage from "../section/TitlePage";
 
@@ -56,7 +55,6 @@ const AboutUs: React.FC = () => {
           })}
         </div>
       </div>
-      <Footer />
     </div>
   );
 };
