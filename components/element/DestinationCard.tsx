@@ -35,7 +35,7 @@ const DestinationCard = ({
           <p className='text-sm text-gray-400'>
             From
             <span className='text-xl text-blue-500 ml-1 font-semibold'>
-              Rp {price}
+              Rp {Number(price).toLocaleString("ID")}
             </span>
           </p>
         </div>

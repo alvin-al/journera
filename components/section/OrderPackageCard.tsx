@@ -22,10 +22,10 @@ const OrderPackageCard = ({
         </div>
         <div className='h-fit px-8'>
           <p className='text-3xl font-semibold'>
-            Rp {Number(discount).toLocaleString("id-ID")}
+            Rp {Number(discount).toLocaleString("ID")}
           </p>
           <p className='text-lg text-gray-500 line-through font-semibold'>
-            Rp {Number(price).toLocaleString("id-ID")}
+            Rp {Number(price).toLocaleString("ID")}
           </p>
         </div>
         <div className='h-12 w-full'>
