@@ -36,6 +36,7 @@ const TourDetailPage = ({
               width={500}
               height={500}
               className='object-contain w-full h-full rounded-lg max-w-[700px]'
+              priority
             />
           </div>
           <DetailPackage description={description} id='detail' />
