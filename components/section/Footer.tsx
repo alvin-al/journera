@@ -47,22 +47,34 @@ const Footer = () => {
         <h4 className='text-3xl mb-8'>Paket Journera</h4>
         <div className='flex gap-2 flex-col'>
           <p>
-            <Link href='/' className='text-gray-400 hover:text-white'>
-              Journera KotaKota
+            <Link
+              href='/tour/journera-selatan'
+              className='text-gray-400 hover:text-white'
+            >
+              Journera Selatan
             </Link>
           </p>
           <p>
-            <Link href='/' className='text-gray-400 hover:text-white'>
+            <Link
+              href='/tour/journera-utara'
+              className='text-gray-400 hover:text-white'
+            >
               Journera Utara
             </Link>
           </p>
           <p>
-            <Link href='/' className='text-gray-400 hover:text-white'>
+            <Link
+              href='/tour/journera-timur'
+              className='text-gray-400 hover:text-white'
+            >
               Journera Timur
             </Link>
           </p>
           <p>
-            <Link href='/' className='text-gray-400 hover:text-white'>
+            <Link
+              href='/tour/journera-barat'
+              className='text-gray-400 hover:text-white'
+            >
               Journera Barat
             </Link>
           </p>
