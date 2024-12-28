@@ -53,8 +53,8 @@ const TourDetailPage = ({
         <div className='lg:w-1/3 lg:pl-4 lg:pt-48 w-full'>
           <div className='sticky top-28'>
             <OrderPackageCard
-              price={price}
-              discount={originalPrice}
+              price={originalPrice}
+              discount={price}
               name={name}
             />
           </div>
